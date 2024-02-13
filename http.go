@@ -15,7 +15,7 @@ const ID plug.ModuleID = "http.logger"
 type Http struct{}
 
 func (h Http) Emit(value any) error {
-	fmt.Printf("[HTTP]: %v", value.(time.Time).Unix())
+	fmt.Printf("[HTTP]: %v\n", value.(time.Time).Unix())
 	return nil
 }
 
