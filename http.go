@@ -10,7 +10,7 @@ func init() {
 	plug.RegisterModule(Http{})
 }
 
-const ID plug.ModuleID = "core.logger"
+const ID plug.ModuleID = "http.logger"
 
 type Http struct{}
 
